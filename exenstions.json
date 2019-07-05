@@ -1,12 +1,6 @@
 {
   "id": "swatches-picker",
   "name": "swatches-picker",
-  "srcdoc": "extension.html",
-  "fieldTypes": ["Symbol"],
-  "parameters": {
-    "instance": {
-      "id": "defaultColor",
-      "name": "Default color"
-    }
-  }
+  "srcdoc": "./extension.html",
+  "fieldTypes": ["Symbol"]
 }
