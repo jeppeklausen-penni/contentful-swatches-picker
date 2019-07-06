@@ -33,4 +33,4 @@ This will allow your extension to be available at http://localhost:3000/. Then, 
 
 Note: since Contentful runs in an HTTPS environment, running this requires to disable temporarily the security checks from your web browser ("Load unsafe scripts" in Chrome for example).
 
-Important: once finished with debugging, you should redeploy your extension without the src argument override to let it run from Contentful's servers or any other external hosting solution you chose.
+Important: once finished with debugging, you should redeploy your extension without the src argument override to let it run from Contentful's servers or any other external hosting solution you chose. *NB. when hosting at Contenful the src property needs to be srcdoc in the extension file*
