@@ -1,0 +1,23 @@
+.colorPickButton {
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+  display: inline-block;
+  border: thin solid #eee
+}
+
+.colorPickButton:hover {
+  transform: scale(1.1)
+}
+
+.colorPickDummy {
+  background: #fff;
+  border: 1px dashed #bbb
+}
+
+
+.selected {
+  border: 3px solid #999;
+}
